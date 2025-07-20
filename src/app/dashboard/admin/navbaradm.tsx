@@ -116,7 +116,7 @@ export default function NavbarAdmin({ darkMode = false, setDarkMode }: NavbarAdm
               Dashboard
             </Link>
             <Link 
-              href="#" 
+              href="/dashboard/admin/warga" 
               className={`flex items-center gap-3 px-3 py-3 rounded-lg font-medium transition-all duration-200 ${darkMode ? 'text-cyan-100 hover:text-white hover:bg-gradient-to-r hover:from-cyan-700 hover:to-cyan-900' : 'text-cyan-700 hover:text-white hover:bg-gradient-to-r hover:from-cyan-400 hover:to-cyan-600'}`}
               onClick={() => setIsMenuOpen(false)}
             >
@@ -132,7 +132,7 @@ export default function NavbarAdmin({ darkMode = false, setDarkMode }: NavbarAdm
               Fasilitas
             </Link>
             <Link 
-              href="#" 
+              href="/dashboard/admin/peminjaman" 
               className={`flex items-center gap-3 px-3 py-3 rounded-lg font-medium transition-all duration-200 ${darkMode ? 'text-cyan-100 hover:text-white hover:bg-gradient-to-r hover:from-cyan-700 hover:to-cyan-900' : 'text-cyan-700 hover:text-white hover:bg-gradient-to-r hover:from-cyan-400 hover:to-cyan-600'}`}
               onClick={() => setIsMenuOpen(false)}
             >
