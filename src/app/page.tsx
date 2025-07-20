@@ -361,8 +361,8 @@ export default function LandingPage() {
 
       {/* Footer */}
       <footer className={`py-12 px-6 ${isDark ? 'bg-gray-800 border-t border-gray-700' : 'bg-white border-t border-gray-200'}`}>
-        <div className="max-w-7xl mx-auto w-full flex flex-col md:flex-row md:items-start md:justify-between gap-8 text-center md:text-left">
-          <div className="flex-1 flex flex-col items-center md:items-start justify-center">
+        <div className="max-w-7xl mx-auto w-full grid grid-cols-1 sm:grid-cols-2 gap-8 text-center sm:text-left items-center">
+          <div className="flex flex-col items-center sm:items-start justify-center">
             <div className="w-16 h-16 bg-gradient-to-r from-emerald-500 to-cyan-500 rounded-2xl flex items-center justify-center mb-6">
               <span className="text-white font-bold text-xl">PF</span>
             </div>
@@ -392,7 +392,7 @@ export default function LandingPage() {
               &copy; {new Date().getFullYear()} Desa Jelegong. All rights reserved.
             </div>
           </div>
-          <div className="flex-1 flex justify-center items-center mt-8 md:mt-0">
+          <div className="flex justify-center items-center mt-8 sm:mt-0">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.429891073745!2d107.77212357587636!3d-6.958509068130224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68c4860ff36fed%3A0x5d48039496b5e833!2sKantor%20Desa%20Jelegong%20Rancaekek!5e0!3m2!1sid!2sid!4v1752982812423!5m2!1sid!2sid"
               width="100%"
