@@ -127,6 +127,9 @@ export default function RegisPage() {
           <Link href="/login" className={`w-full block py-3 rounded-xl font-bold shadow transition-all duration-200 text-center ${isDark ? "bg-emerald-700 text-white hover:bg-emerald-800" : "bg-emerald-500 text-white hover:bg-emerald-600"}`}>
             Sudah punya akun? Login
           </Link>
+          <Link href="/" className={`w-full block py-3 rounded-xl font-bold shadow transition-all duration-200 text-center border ${isDark ? "bg-transparent border-cyan-700 text-cyan-200 hover:bg-cyan-900/40" : "bg-transparent border-cyan-400 text-cyan-700 hover:bg-cyan-100"}`}>
+            Kembali ke Beranda
+          </Link>
         </div>
       </div>
     </div>
