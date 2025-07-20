@@ -47,7 +47,7 @@ export default function NavbarAdmin({ darkMode = false, setDarkMode }: NavbarAdm
               <FaChair className="text-sm group-hover:animate-pulse" />
               <span>Fasilitas</span>
             </Link>
-            <Link href="peminjaman" className={`group flex items-center gap-2 px-4 py-2 rounded-xl font-semibold transition-all duration-200 transform hover:scale-105 ${darkMode ? 'text-cyan-100 hover:text-white hover:bg-gradient-to-r hover:from-cyan-700 hover:to-cyan-900' : 'text-cyan-700 hover:text-white hover:bg-gradient-to-r hover:from-cyan-400 hover:to-cyan-600'}`}>
+            <Link href="/dashboard/admin/peminjaman" className={`group flex items-center gap-2 px-4 py-2 rounded-xl font-semibold transition-all duration-200 transform hover:scale-105 ${darkMode ? 'text-cyan-100 hover:text-white hover:bg-gradient-to-r hover:from-cyan-700 hover:to-cyan-900' : 'text-cyan-700 hover:text-white hover:bg-gradient-to-r hover:from-cyan-400 hover:to-cyan-600'}`}>
               <FaClipboardList className="text-sm group-hover:animate-pulse" />
               <span>Peminjaman</span>
             </Link>
