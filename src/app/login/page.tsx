@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { Eye, EyeOff, User, Lock, Mail } from "lucide-react";
+import { Sun, Moon, Eye, EyeOff, User, Lock, Mail } from "lucide-react";
 import Link from "next/link";
 
 export default function LoginPage() {
@@ -47,7 +47,7 @@ export default function LoginPage() {
           onClick={() => setIsDark(!isDark)}
           className={`p-2 rounded-lg transition-colors ${isDark ? "bg-gray-800 text-yellow-400 hover:bg-gray-700" : "bg-gray-100 text-gray-600 hover:bg-gray-200"}`}
         >
-          {isDark ? <Eye className="w-5 h-5" /> : <EyeOff className="w-5 h-5" />}
+          {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
         </button>
       </div>
       <div className={`w-full max-w-md p-8 rounded-3xl shadow-2xl ${isDark ? "bg-gray-800" : "bg-white"}`}>
